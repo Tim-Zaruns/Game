@@ -1,0 +1,24 @@
+.statistics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  align-items: center;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid #9b2424;
+  box-shadow: inset 0 0 20px 0 #9b2424, 0 0 20px 0 #9b2424;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.game__stats {
+  font-size: 35px;
+  color: #cb742d;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #cb742d, 0 0 15px #cb742d, 0 0 20px #cb742d;
+  letter-spacing: 8px;
+}

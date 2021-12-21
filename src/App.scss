@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.App {
+text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #af2828;
+  font-size: 35px;
+  cursor: pointer;
+  text-shadow: 0 0 10px #af2828, 0 0 15px #af2828, 0 0 20px #af2828;
+
+  &:hover {
+    color: #ff6363;
+    text-shadow: 0 0 5px #ff6363, 0 0 10px #ff6363, 0 0 15px #ff6363, 0 0 20px #ff6363;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
